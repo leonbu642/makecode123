@@ -1,0 +1,28 @@
+{
+    "name": "makecode123",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-kitronik-move-motor": "github:kitronikltd/pxt-kitronik-move-motor#v0.4.15",
+        "Huskylens": "github:dfrobot/pxt-dfrobot_huskylens#v2.0.5",
+        "pxt-edubit": "github:cytrontechnologies/pxt-edubit#v1.14.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
